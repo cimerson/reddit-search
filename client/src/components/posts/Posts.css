@@ -1,0 +1,84 @@
+.Error {
+    color: #FF4500;
+    text-align: center;
+}
+
+.Loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.List {
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.PostItem-container {
+    display: flex;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color:  #1A1A1BCC;
+    border: 1px solid #343536;
+}
+
+.Content-container {
+    width: 100%;
+}
+
+.Content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Author {
+    font-size: 12px;
+}
+
+.Link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Title {
+    white-space: pre-wrap;
+}
+
+.Text {
+    white-space: pre-wrap;
+    text-align: justify;
+}
+
+.Image-container {
+    width: 640px;
+    height: auto;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.Thumbnail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    width: 138;
+    border-radius: 4px;
+    margin-left: 24px;
+}
+
+.Image {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

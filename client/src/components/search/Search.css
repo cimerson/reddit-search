@@ -1,0 +1,34 @@
+.Search-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #030303;
+} 
+
+.Input-container {
+    width: 561px;
+    margin-bottom: 24px;
+}
+
+.Form {
+    display: flex;
+    width: 100%;
+}
+
+.Posts-conatiner {
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,35 @@
+.Input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+.Input-wrapper-error {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #FF4500;
+}
+
+.Input-wrapper:hover > .Input {
+    cursor: text;
+}
+
+.Input {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    font-size: 16px;
+    color:  #030303;
+}
+
+.Input:-internal-autofill-selected {
+    background-color: none !important;
+}
