@@ -16,7 +16,7 @@ const PostItem = ({ author, title, selftext, thumbnail, preview, url }: Post) =>
             <div className='Content-container'>
                 <div className='Content-header'>
                     <div className='Header-text'>
-                        <p className='Author'>Postet by {getDecodedString(author)}</p>
+                        <p className='Author'>Posted by {getDecodedString(author)}</p>
                         <h3 className='Title'>
                             <a className='Link' href={url} target="_blank" rel="noopener noreferrer">
                                 <BInterweave content={getDecodedString(title as string | '')} />
@@ -24,12 +24,12 @@ const PostItem = ({ author, title, selftext, thumbnail, preview, url }: Post) =>
                         </h3>
                     </div>
                     <div className='Thumbnail-container'>
-                        {isURL(thumbnail as string | '') && <img className='Image' src={thumbnail} alt='thumbnail' width='138px' height='98px' />}
+                        {isURL(thumbnail as string | '') && <img className='ImageThumb' src={thumbnail} alt='thumbnail' />}
                     </div>
                 </div>
-                <p><BInterweave content={getDecodedString(selftext as string | '')} /></p>
+                <p className='Text'><BInterweave content={getDecodedString(selftext as string | '')} /></p>
                 <div className='Image-container'>
-                    {postImageUrl && <img className='Image' src={postImageUrl} alt='post' width='640px' />}
+                    {postImageUrl && <img className='Image' src={postImageUrl} alt='post' width='100%' />}
                 </div>
             </div>
         </div>

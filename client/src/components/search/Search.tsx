@@ -41,7 +41,8 @@ const Search = () => {
     return (
         <div className='Search-container'>
             <header className='Header'>
-                <Logo width='400' height='158'/>
+                {/* <Logo width='400' height='158'/> */}
+                <Logo className='Logo' />
                 <div className='Input-container'>
                     <FormProvider {...methods}>
                         <form className='Form' onSubmit={methods.handleSubmit(onSearch)} autoComplete='off'>

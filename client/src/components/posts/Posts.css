@@ -13,8 +13,8 @@
 
 .List {
     display: block;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 7.8125vw;
+    padding-right: 7.8125vw
 }
 
 .PostItem-container {
@@ -45,22 +45,24 @@
     font-size: 12px;
 }
 
+.Title {
+    white-space: pre-wrap;
+    font-weight: 700;
+}
+
 .Link {
     color: inherit;
     text-decoration: none;
 }
 
-.Title {
-    white-space: pre-wrap;
-}
-
 .Text {
     white-space: pre-wrap;
     text-align: justify;
+    word-wrap: break-word;
 }
 
 .Image-container {
-    width: 640px;
+    width: 33.33333333333333vw;
     height: auto;
     border-radius: 4px;
     margin: 8px;
@@ -68,12 +70,18 @@
 
 .Thumbnail-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 98px;
-    width: 138;
+    height: 5.104166666666667vw;
+    width: 7.187499999999999vw;
     border-radius: 4px;
     margin-left: 24px;
+}
+
+.ImageThumb {
+    width: 7.187499999999999vw;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Image {
